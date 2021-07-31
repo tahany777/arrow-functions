@@ -192,6 +192,7 @@ console.log(joe.scopeArrow());
 // 1. What is "this" when joe.scope() is invoked?
 // is the object student itself
 // 2. What is "this" when joe.scopeArrow() is invoked?
-// this retern the value of the enclosing functional scope.
+// this global object(window)
 // 3. Explain why "this" is different when an arrow function is used.
 // Arrow functions do not bind their own this, instead, they inherit the one from the parent scope.
+//arrow functions do not have a prototype property and they cannot be used with new.
